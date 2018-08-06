@@ -1,0 +1,69 @@
+header{
+  background-color: blue;
+  color: pink;
+  padding: 1%;
+  text-align: center;
+  box-shadow: 2px 2px 2px orange;
+}
+.main{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1%;
+  box-sizing: border-box;
+}
+.subdiv{
+  width: 33.3%;
+  border: 1px solid #ddd;
+  box-shadow: 3px 3px 3px #ddd;
+  padding: 1%;
+  margin: 2%;
+}
+a{
+  text-align: center;
+  text-decoration: none;
+  background: orange;
+  padding: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2,h3,h4{
+  text-align: center;
+  justify-content: center;
+}
+.child1{
+  width: 30%;
+  border: 1px solid #ddd;
+  padding: 1%;
+  margin: 1%;
+}
+.child6
+justify-content: center;{
+  width: 70%;
+  border: 1px solid #ddd;
+  padding: 1%;
+  margin: 1%;
+}
+img{
+  width: 200px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+@media only screen  (min-width:320px) and (max-width:480px){
+
+
+}
+
+@media only screen  (min-width:481px) and (max-width:768px){
+
+
+}
+
+@media only screen  (min-width:769px) and (max-width:1024px){
+
+
+}
