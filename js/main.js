@@ -10,7 +10,7 @@ function loadJSON(file,callback){
   xhr.send();
 }
 
-loadJSON('data/data.json',function(text)
+loadJSON('data.json',function(text)
 {
   var data=JSON.parse(text);
   console.log(data);
